@@ -1,0 +1,8 @@
+framework module "SharedBusinessKit" {
+    umbrella header "SharedBusinessKit.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
