@@ -170,7 +170,7 @@ __attribute__((swift_name("UserRepository")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getNewTestWithCompletionHandler:(void (^)(SBKUser * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNewTest(completionHandler:)")));
+- (void)getNewFunctionVersionTwoWithCompletionHandler:(void (^)(SBKUser * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNewFunctionVersionTwo(completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -195,7 +195,7 @@ __attribute__((swift_name("UserRepositoryImpl")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getNewTestWithCompletionHandler:(void (^)(SBKUser * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNewTest(completionHandler:)")));
+- (void)getNewFunctionVersionTwoWithCompletionHandler:(void (^)(SBKUser * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNewFunctionVersionTwo(completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -215,7 +215,7 @@ __attribute__((swift_name("UserService")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)fetchTestWithCompletionHandler:(void (^)(SBKUser * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchTest(completionHandler:)")));
+- (void)fetchTestVersionTwoWithCompletionHandler:(void (^)(SBKUser * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchTestVersionTwo(completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
